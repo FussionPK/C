@@ -16,6 +16,8 @@
 //     printf("Students in the library are %d\nTheir rates are %d\nAnd this statement indicates they are %s\n", l1.students, l1.rates, l1.gens);
 // }
 
+// the code above is made to take in inputs for example l1 these inputs contain elements of a structure. Elements such as students their school rates and what gender they are. the structure is called library.
+
 typedef struct{
 
     char title[50];
@@ -28,7 +30,7 @@ void printBook(book b){
     
     printf("The title of this book is %s\nand it was written by %s\nIt Consists of %d pages\n\n", b.title, b.author, b.pages);
 
-}
+} // this function is used to print the books in a neat manner instead of having multiple printf statements making your code dirty. Clean Code is good code.
 
 void addBook(book *d, char a[], char x[], int y){
 
@@ -36,7 +38,7 @@ void addBook(book *d, char a[], char x[], int y){
     strcpy(d->author, x);
     d->pages = y;
 
-}
+} // this function uses pointers in specific terms the pointer *d is used to label the data that will be used in the function for example as you can see its being pointed to title and author and pages. the function i made it so i can add books easier.
 
 int main(){
 
@@ -53,4 +55,4 @@ int main(){
     printBook(b4);
 
     return 0;
-}
+} // epic c code with comments :D
