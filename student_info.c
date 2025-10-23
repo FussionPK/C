@@ -1,17 +1,3 @@
-/*
- StudentInfo - C Program 1
- Name: Ryan Charkuoth Noah
- Student ID: M01064288
-*/
-
-/*
-Write a C program that displays your name, student ID, Degree Programme and why
-you are studying that programme.
-The program should also perform 4 calculations using the numbers in your student ID
-(+, -, /, and *).
-Include some relevant comments in your code.
-*/
-
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -125,4 +111,5 @@ int main() {
     }
 
     return 0;
+
 }
