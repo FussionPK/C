@@ -1,21 +1,3 @@
-/*
- StudentInfo - C Program 2
- Name: Ryan Charkuoth Noah
- Student ID: M01064288
-*/
-
-/*
-Write a C program that takes some numbers entered by the user and performs some
-operations on them (+, -, /, and *).
-The programme should also take the name of the user and display it in every result
-e.g.
-Student_Name has entered X and Y. X + Y equals Z.
-Student_Name has entered X and Y. X * Y equals Z.
-Where Student_Name, X and Y are the details entered by the user and Z is the result
-of the calculations.
-Include some relevant comments in your code.
-*/
-
 #include <stdio.h>
 #include <string.h> 
 #include <ctype.h>  
@@ -109,4 +91,5 @@ int main() {
     }
 
     return 0;
+
 }
